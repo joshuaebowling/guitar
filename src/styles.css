@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fretboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.string {
+  display: flex;
+  flex-direction: row;
+}
+
+.fret {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
